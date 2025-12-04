@@ -42,7 +42,7 @@ def validate_input(user_input: str, max_length: int = 1000) -> str:
 Implement rate limiting to prevent abuse:
 
 ```python
-from time import sleep
+import time
 from functools import wraps
 
 def rate_limit(calls_per_minute: int):
@@ -56,7 +56,7 @@ def rate_limit(calls_per_minute: int):
             elapsed = time.time() - last_called[0]
             left_to_wait = min_interval - elapsed
             if left_to_wait > 0:
-                sleep(left_to_wait)
+                time.sleep(left_to_wait)
             ret = func(*args, **kwargs)
             last_called[0] = time.time()
             return ret
