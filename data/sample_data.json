@@ -1,0 +1,22 @@
+{
+  "sample_data": [
+    {
+      "id": 1,
+      "product": "Smart Health Monitor",
+      "category": "Healthcare",
+      "description": "Advanced wearable device for health monitoring"
+    },
+    {
+      "id": 2,
+      "product": "AI Diagnostic Assistant",
+      "category": "Medical AI",
+      "description": "AI-powered tool for medical diagnostics support"
+    },
+    {
+      "id": 3,
+      "product": "Patient Care Chatbot",
+      "category": "Healthcare",
+      "description": "Conversational AI for patient support and information"
+    }
+  ]
+}
