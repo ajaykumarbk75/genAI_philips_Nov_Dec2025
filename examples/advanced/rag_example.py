@@ -100,9 +100,10 @@ Question: {question}
 Answer:"""
         
         # Get response from LLM
-        response = self.llm.predict(prompt)
+        messages = [{"role": "user", "content": prompt}]
+        response = self.llm.invoke(messages)
         
-        return response, relevant_docs
+        return response.content, relevant_docs
 
 def demo_rag():
     """Demonstrate RAG system"""
