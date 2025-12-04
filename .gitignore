@@ -64,5 +64,6 @@ models/*.safetensors
 data/*.csv
 data/*.json
 data/*.parquet
+# Keep sample data files
+!data/sample_data.json
 !data/sample_*.csv
-!data/sample_*.json
