@@ -168,7 +168,7 @@ messages = [
 
 ```python
 import time
-from openai import OpenAI, OpenAIError, RateLimitError, APIError
+from openai import OpenAI, RateLimitError, APIError
 
 def make_api_call_with_retry(prompt: str, max_retries: int = 3):
     """Make API call with exponential backoff retry"""

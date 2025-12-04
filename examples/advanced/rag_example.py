@@ -6,11 +6,8 @@ information from documents and use it to augment the LLM's response.
 """
 
 import os
-import json
 from typing import List, Dict
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.docstore.document import Document
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
