@@ -1,2 +1,0 @@
-# genAI_philips_Nov_Dec2025
-genAI_philips_Nov_Dec2025
