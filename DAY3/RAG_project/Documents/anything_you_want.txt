@@ -1,0 +1,1 @@
+python is popular language for machine learning AI GenAI data science web development automation and more Its simplicity readability and vast ecosystem of libraries make it a preferred choice for developers across various domains 
